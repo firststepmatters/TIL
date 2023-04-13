@@ -1,0 +1,11 @@
+import sys
+receipt = int(sys.stdin.readline())
+Sum = 0
+for i in range(int(input())):
+    a, b = map(int,sys.stdin.readline().split())
+    Sum += a*b
+
+if Sum == receipt:
+    print("Yes")
+else:
+    print("No")
